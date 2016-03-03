@@ -4,6 +4,14 @@ Creating a new repository:
   
     mkdir /path/to/new/dir
     svnadmin create /path/to/new/dir
+    $ svn mkdir -m "Create directory structure." file:///path/to/new/dir/trunk 
+      file:///path/to/new/dir/branches  
+      file:///path/to/new/dir/tags
+    $ cd my-directory
+    $ svn checkout file:///path/to/new/dir/trunk ./
+    $ svn add --force ./
+    $ svn commit -m "Initial import"
+    $ svn up
   
 Starting svnserve:
 
@@ -103,3 +111,6 @@ Additional Commands:
     $ svn add --non-recursive directory_name
     $ svn co -r7 url directory
     $ svn propedit svn:ignore *.bak
+    
+Additional info:
+    http://svnbook.red-bean.com/en/1.7/index.html
