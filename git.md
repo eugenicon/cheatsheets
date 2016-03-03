@@ -84,3 +84,81 @@ remove all deleted files from the project
     
     git rm $(git ls-files --deleted)
   
+Staging
+-------
+
+ add changes in <file1>, <file2> ... to the staging area (to be included in the next commit)
+ 
+        git add <file1> <file2>
+        
+interactively walk through the current changes (hunks) in the working tree, and decide which changes to add to the staging area.
+
+        git add -p
+      
+remove the specified files from the next commit
+
+        git reset HEAD <file1> <file2> ...
+
+Committing
+----------
+
+commit <file1>, <file2>, etc... using commit message <msg>
+
+        git commit <file1> <file2> ... -m '<msg>'
+  
+edit the commit message of the most recent commit
+  
+        git commit --amend
+  
+redo previous commit, including changes made to <file1>, <file2>, etc...
+        
+        git commit --amend <file1> <file2> ...
+  
+Branching
+---------
+
+list all local branches
+        
+        git branch
+
+list all remote branches
+        
+        git branch -r
+  
+create a new branch named <branch>, referencing the same point in history as the current branch
+
+        git branch <branch>
+  
+delete the branch <branch>;   
+  
+        git branch -d <branch>
+        
+
+make the current branch <branch>, updating the working directory to reflect the version referenced by <branch>
+  
+        git checkout <branch>
+        
+Merging
+-------
+
+merge branch <branch> into the current branch
+
+        git merge <branch>
+
+
+merge branch <branch> into the current branch, but do not autocommit the result
+  
+        git merge <branch> --no-commit
+
+Cherry-Picking
+--------------
+
+selectively merge a single commit from another local branch
+        
+        git cherry-pick [--edit] [-n] [-m parent-number] [-s] [-x] <commit>
+  
+Example: 
+        
+        git cherry-pick 7300a6130d9447e18a931e898b64eefedea19544
+
+  
