@@ -114,3 +114,6 @@ Additional Commands:
     
 Additional info:
     http://svnbook.red-bean.com/en/1.7/index.html
+    
+Free svn repo:
+    https://www.assembla.com
