@@ -83,6 +83,17 @@ remove <file1>, <file2>, etc... from the project
 remove all deleted files from the project
     
     git rm $(git ls-files --deleted)
+    
+Undo changes
+-------
+
+unstage all files you might have staged with git add
+
+    git reset
+    
+revert all local uncommitted changes
+
+    git checkout .
   
 Staging
 -------
