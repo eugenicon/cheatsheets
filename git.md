@@ -161,6 +161,10 @@ merge branch <branch> into the current branch, but do not autocommit the result
   
         git merge <branch> --no-commit
 
+merge other local repo into current branch with history
+    
+        git subtree add -P <prefix-for-other-repo> <path> <revision>
+
 Cherry-Picking
 --------------
 
