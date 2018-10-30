@@ -11,3 +11,7 @@ Bash history search, partial + up-arrow
 Dropdown Terminal
 ---
     sudo apt-get install tilda
+
+Docklet Panel
+---
+    sudo apt-get install docky
