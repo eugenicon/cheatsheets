@@ -1,4 +1,5 @@
 Bash history search, partial + up-arrow
+---
   
   Put the following lines in your ~/.inputrc:
 
