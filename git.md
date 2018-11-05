@@ -124,6 +124,10 @@ edit the commit message of the most recent commit
 redo previous commit, including changes made to <file1>, <file2>, etc...
         
         git commit --amend <file1> <file2> ...
+        
+update commit date
+        
+        git commit --amend --no-edit --date "now"
   
 Branching
 ---------
