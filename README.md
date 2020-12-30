@@ -1,12 +1,12 @@
 # Cheatsheets
 
-[SVN](https://github.com/eugenicon/cheatsheets/blob/master/svn.md#svn)
+[SVN](svn.md#)
 
-[git](https://github.com/eugenicon/cheatsheets/blob/master/git.md#setup)
+[git](git.md#)
 
-[Maven](https://github.com/eugenicon/cheatsheets/blob/master/Maven.md#)
+[Maven](Maven.md#)
 
-[Linux](https://github.com/eugenicon/cheatsheets/blob/master/linux.md#)
+[Linux](linux.md#)
 
-[k8s](https://github.com/eugenicon/cheatsheets/blob/master/k8s.md#)
+[k8s](k8s.md#)
 
