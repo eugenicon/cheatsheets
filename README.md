@@ -8,3 +8,5 @@
 
 [Linux](https://github.com/eugenicon/cheatsheets/blob/master/linux.md#)
 
+[k8s](https://github.com/eugenicon/cheatsheets/blob/master/k8s.md#)
+
