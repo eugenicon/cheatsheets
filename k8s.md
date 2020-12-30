@@ -16,3 +16,7 @@ stream log
 view env
 
     kubectl exec podName -- printenv
+
+execute command interactive
+
+    kubectl exec -i podName -- bash
